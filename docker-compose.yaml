@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+ server:
+  build: ./backend
+  ports:
+   - 4001:4000
+
+ dbservice:
+  build: ./db
+
